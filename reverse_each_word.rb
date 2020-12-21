@@ -4,5 +4,5 @@ def reverse_each_word(str)
   temp_array.collect { |word|
     output << "#{word.reverse} "
   }
-  output(0:-1)
+  output[0:-1]
 end
